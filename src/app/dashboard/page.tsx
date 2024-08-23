@@ -31,14 +31,14 @@ const Home = () => {
     };
 
     fetchStock();
-  }, [selectedPharmacy]);
+  }, [selectedPharmacy, setStockItems]);
 
   useEffect(() => {
     const savedStockItems = localStorage.getItem('stockItems');
     if (savedStockItems) {
       setStockItems(JSON.parse(savedStockItems));
     }
-  }, []);
+  }, [setStockItems]);
   
   return (
     <DefaultLayout>
