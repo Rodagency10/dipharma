@@ -16,7 +16,7 @@ const Settings = () => {
 
   useEffect(() => {
     if (!user) {
-      router.push("/login");
+      router.push("/");
     }
   }, [user, router]);
 
