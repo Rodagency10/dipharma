@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       apexcharts:
-        specifier: ^3.45.2
+        specifier: ^3.52.0
         version: 3.52.0
       firebase:
         specifier: ^10.13.0
@@ -21,16 +21,16 @@ importers:
         specifier: ^1.6.0
         version: 1.6.0
       next:
-        specifier: ^14.2.4
+        specifier: ^14.2.6
         version: 14.2.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react:
-        specifier: ^18
+        specifier: ^18.3.1
         version: 18.3.1
       react-apexcharts:
         specifier: ^1.4.1
         version: 1.4.1(apexcharts@3.52.0)(react@18.3.1)
       react-dom:
-        specifier: ^18
+        specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
       react-hook-form:
         specifier: ^7.52.2
@@ -46,37 +46,37 @@ importers:
         version: 4.5.5(@types/react@18.3.4)(react@18.3.1)
     devDependencies:
       '@types/node':
-        specifier: ^20
+        specifier: ^20.16.1
         version: 20.16.1
       '@types/react':
-        specifier: ^18
+        specifier: ^18.3.4
         version: 18.3.4
       '@types/react-dom':
-        specifier: ^18
+        specifier: ^18.3.0
         version: 18.3.0
       autoprefixer:
-        specifier: ^10.0.1
+        specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.41)
       eslint:
-        specifier: ^8
+        specifier: ^8.57.0
         version: 8.57.0
       eslint-config-next:
         specifier: 14.1.0
         version: 14.1.0(eslint@8.57.0)(typescript@5.5.4)
       postcss:
-        specifier: ^8
+        specifier: ^8.4.41
         version: 8.4.41
       prettier:
-        specifier: ^3.2.5
+        specifier: ^3.3.3
         version: 3.3.3
       prettier-plugin-tailwindcss:
-        specifier: ^0.5.11
+        specifier: ^0.5.14
         version: 0.5.14(prettier@3.3.3)
       tailwindcss:
-        specifier: ^3.4.1
+        specifier: ^3.4.10
         version: 3.4.10
       typescript:
-        specifier: ^5
+        specifier: ^5.5.4
         version: 5.5.4
 
 packages:
@@ -2992,7 +2992,7 @@ snapshots:
       eslint: 8.57.0
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.6.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0)
-      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0))(eslint@8.57.0)
       eslint-plugin-jsx-a11y: 6.9.0(eslint@8.57.0)
       eslint-plugin-react: 7.35.0(eslint@8.57.0)
       eslint-plugin-react-hooks: 4.6.2(eslint@8.57.0)
@@ -3016,7 +3016,7 @@ snapshots:
       enhanced-resolve: 5.17.1
       eslint: 8.57.0
       eslint-module-utils: 2.8.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0))(eslint@8.57.0)
-      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0))(eslint@8.57.0)
       fast-glob: 3.3.2
       get-tsconfig: 4.7.6
       is-core-module: 2.15.1
@@ -3038,7 +3038,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.29.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0):
+  eslint-plugin-import@2.29.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@6.21.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0))(eslint@8.57.0):
     dependencies:
       array-includes: 3.1.8
       array.prototype.findlastindex: 1.2.5
