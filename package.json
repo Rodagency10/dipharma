@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "apexcharts": "^3.45.2",
+    "firebase": "^10.13.0",
     "flatpickr": "^4.6.13",
     "jsvectormap": "^1.6.0",
     "next": "^14.2.4",
@@ -17,7 +18,9 @@
     "react-apexcharts": "^1.4.1",
     "react-dom": "^18",
     "react-hook-form": "^7.52.2",
-    "zod": "^3.23.8"
+    "react-hot-toast": "^2.4.1",
+    "zod": "^3.23.8",
+    "zustand": "^4.5.5"
   },
   "devDependencies": {
     "@types/node": "^20",

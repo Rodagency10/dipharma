@@ -3,7 +3,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
 import SidebarItem from "@/components/Sidebar/SidebarItem";
 import ClickOutside from "@/components/ClickOutside";
 import useLocalStorage from "@/hooks/useLocalStorage";
@@ -172,7 +171,7 @@ const menuGroups = [
           </svg>
         ),
         label: "Documentation",
-        route: "/settings",
+        route: "/documentation",
       },
     ],
   },
